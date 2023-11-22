@@ -1,0 +1,11 @@
+{
+  "name": "slozka",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000p\u0000l\u0000a\u0000y\u0000g\u0000r\u0000o\u0000u\u0000n\u0000d\u0000\r\u0000 \u0000\r\u0000 \u0000#\u0000 \u0000p\u0000l\u0000a\u0000y\u0000g\u0000r\u0000o\u0000u\u0000n\u0000d\u0000\r\u0000 \u0000",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
