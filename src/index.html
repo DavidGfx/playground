@@ -3,9 +3,121 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <link href="../dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/b13da273bc.css"
+      crossorigin="anonymous"
+    />
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Hello world!!!</h1>
+  <body class="min-h-[2000px] font-poppins">
+    <nav class="border-b fixed top-0 w-full backdrop-blur-md bg-white/30 z-50">
+      <div class="container flex justify-between py-8">
+        <div class="flex">
+          <img src="./logo.svg" alt="logo" class="w-40" />
+        </div>
+        <div class="flex gap-4">
+          <button
+            class="border-primary border rounded-lg py-6 px-12 text-primary hover:bg-primary hover:text-white transition-colors text-lg font-tabac font-bold"
+          >
+            GO TO HOMEPAGE
+          </button>
+          <button
+            class="flex bg-primary rounded-lg py-6 px-12 text-white gap-2 items-center hover:shadow-lg hover:shadow-primary transition-shadow text-lg font-tabac font-bold group"
+          >
+            <span class="group-hover:-translate-x-1 transition-transform">LEARN MORE </span>
+            <i
+              class="fa-light fa-arrow-right-long group-hover:translate-x-1 transition-transform"
+            ></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div class="mt-[140px] bg-heroImage min-h-[calc(100vh-140px)] bg-cover">
+      <div class="container">
+        <div class="container flex justify-center">
+          <h1 class="text-3xl font-bold text-black mt-16 mb-6 font-tabac">
+            Bridge the gap in <span class="text-primary">hybrid work</span> with
+            MATSUKO
+          </h1>
+        </div>
+        <div class="container flex justify-between gap-5 lg:flex-row flex-col">
+          <div
+            class="border-black/10 border rounded-xl bg-black/5 p-6 grow basis-1/4 backdrop-blur-md"
+          >
+            <div class="flex justify-between">
+              <div class="pt-5">
+                <h2 class="text-primary font-tabac text-lg">
+                  Welcome new hires
+                </h2>
+              </div>
+              <div class="text-primary/20 text-4xl">
+                <i class="fa-solid fa-house-building"></i>
+              </div>
+            </div>
+            <p class="text-black/50 text-md mt-2">
+              Make them feel at home from day one.
+            </p>
+          </div>
+          <div
+            class="border-black/10 border rounded-xl bg-black/5 p-6 grow basis-1/4 backdrop-blur-md"
+          >
+            <div class="flex justify-between">
+              <div class="pt-5">
+                <h3 class="text-primary font-tabac text-lg">
+                  Hybrid Team Collaboration
+                </h3>
+              </div>
+              <div class="text-primary/20 text-4xl">
+                <i class="fa-solid fa-people-arrows"></i>
+              </div>
+            </div>
+            <p class="text-black/50 text-md mt-2">
+              Let them meet your hybrid team as though they were together.
+            </p>
+          </div>
+          <div
+            class="border-black/10 border rounded-xl bg-black/5 p-6 grow basis-1/4 backdrop-blur-md"
+          >
+            <div class="flex justify-between">
+              <div class="pt-5">
+                <h3 class="text-primary font-tabac text-lg">
+                  Holographic Team Introductions
+                </h3>
+              </div>
+              <div class="text-primary/20 text-4xl">
+                <i class="fa-solid fa-users-medical"></i>
+              </div>
+            </div>
+            <p class="text-black/50 text-md mt-2">
+              Introduce key team members all from one place.
+            </p>
+          </div>
+          <div
+            class="border-black/10 border rounded-xl bg-black/5 p-6 grow basis-1/4 backdrop-blur-md"
+          >
+            <div class="flex justify-between">
+              <div class="pt-5">
+                <h3 class="text-primary font-tabac text-lg">
+                  Boost Engagement
+                </h3>
+              </div>
+              <div class="text-primary/20 text-4xl">
+                <i class="fa-solid fa-chart-mixed"></i>
+              </div>
+            </div>
+            <p class="text-black/50 text-md mt-2">
+              Increase their engagement during the onboarding.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
